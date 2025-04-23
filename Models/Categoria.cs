@@ -4,11 +4,11 @@ namespace Entity_Framework_con_C_sharp.Models;
 
 public class Categoria
 {
-    [Key]
+    // [Key] // Fluente ya lo está aplicando
     public Guid CategoriaId {get; set;}
 
-    [Required]
-    [MaxLength(150)]
+    // [Required]
+    // [MaxLength(150)]
     public string Nombre {get; set;}
     
     public string Decripcion {get; set;}

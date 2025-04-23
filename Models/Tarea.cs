@@ -5,7 +5,7 @@ namespace Entity_Framework_con_C_sharp.Models;
 
 public class Tarea
 {
-    [Key]
+    // [Key] // Fluente ya lo está aplicando
     public Guid TareaId {get; set;}
 
     [ForeignKey("CategoriaId")]
